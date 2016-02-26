@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Navmenu Template for Bootstrap</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/navmenu.css" rel="stylesheet">
+	<link href="css/app.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm">
+		<img src="img/draft-logo-white.png" width="150px" class="navmenu-brand visible-md visible-lg">
+		<ul class="nav navmenu-nav">
+			<li><a href="#" class="navmenu-link">Дашборд</a></li>
+			<li><a href="#" class="navmenu-link">Аналитика</a></li>
+		</ul>
+	</div>
+
+	<div class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+		<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<img src="img/draft-logo.png" height="35px">
+	</div>
+
+	<div class="container-fluid toprow">
+		<div class="row text-right">
+			<div class="col-md-3 text-left">Проект</div>
+			<div class="col-md-1 col-md-offset-6">?</div>
+			<div class="col-md-1">SET</div>
+			<div class="col-md-1">AVA</div>
+		</div>
+		<div class="row text-center titleblock">
+			<div class="col-md-3 text-left">
+				<h4>Настройки</h4>
+			</div>
+			<div class="col-md-6 text-center sub-menu">
+				<a href="personal_settings.html">Персональные настройки</a> - <a href="index.html">Интеграция</a> - <a href="#">Уведомления</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid mainboard">
+		<div class="container">
+			<div class="col-md-12 settings-card">
+				<h4>Интеграция рекламных систем</h4>
+				<hr>
+				<div class="row">
+					<div class="col-md-4">
+						<h5>Яндекс.Директ</h5>
+					</div>
+					<div class="col-md-5">
+						<p class="token-life">Остаток дней до конца действия ключа: <span>24</span></p>
+					</div>
+					<div class="col-md-3 text-right">
+						<a class="btn btn-success" href="#">Подключить</a>
+					</div>
+				</div>
+<!--
+				<hr>
+				<div class="row">
+					<div class="col-md-3">
+						<h5>Google Adwords</h5>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-3">
+						<h5>Вконтакте</h5>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-3">
+						<h5>Facebook</h5>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-3">
+						<h5>Яндекс.Маркет</h5>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-3">
+						<h5>MyTarget</h5>
+					</div>
+				</div>
+-->
+			</div>
+			<div class="col-md-12 settings-card">
+				<h4>Интеграция системы коллтрекинга</h4>
+				<hr>
+				<div class="col-md-3">
+					<select class="form-control">
+						<option>Выберите систему:</option>
+						<option>CoMagic</option>
+<!--
+						<option>Calltouch</option>
+						<option>Ringostat</option>
+						<option>Callibri</option>
+						<option>PrimeGate</option>
+-->
+						<option>Другая</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-12 settings-card">
+				<h4>Интеграция CRM</h4>
+				<hr>
+				<div class="col-md-3">
+					<select class="form-control">
+						<option>Выберите систему:</option>
+						<option>Битрикс 24</option>
+<!--
+						<option>Amo CRM</option>
+						<option>Мегаплан</option>
+						<option>In Sales</option>
+						<option>Мой Склад</option>
+						<option>Retail CRM</option>
+						<option>1С-Битрикс</option>
+						<option>Freshoffice</option>
+						<option>Shop-Script 6</option>
+						<option>Salesforce</option>
+						<option>Pipedrive</option>
+-->
+						<option>Другая</option>
+					</select>
+				</div>
+			</div>
+<!--
+			<div class="col-md-12 settings-card">
+				<h4>Другие интеграции</h4>
+				<hr>
+				<div class="row">
+					<div class="col-md-3">
+						<h5>Slack</h5>
+					</div>
+				</div>
+			</div>
+-->
+		</div>
+	</div>
+	<!-- /.container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/jasny-bootstrap.min.js"></script>
+	<script src="js/jasny-bootstrap.min.js"></script>
+</body>
+</html>

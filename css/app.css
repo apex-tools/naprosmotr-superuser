@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,cyrillic-ext,cyrillic);
+body {
+	background-color: #F54359;
+/*
+	background-image: url(../img/planet-bg.jpg);
+	background-position: center;
+	background-size: cover;
+*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4, h5 {
+	font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0 0 0 150px;
+  }
+}
+
+.navmenu {
+	max-width: 150px;
+	background-color: #032026;
+	color: white;
+	border: 0;
+}
+
+.navmenu-link {
+	color: white !important;
+}
+
+.toprow {
+	height: 65px;
+	padding-top: 5px;
+	position: fixed;
+	width: calc(100% - 150px);
+	background-color: rgba(255, 255, 255, 0.96);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	z-index: 150;
+}
+
+.titleblock {
+	border-top: 0.25px solid lightgray;
+}
+
+.sub-menu {
+	line-height:40px;
+}
+
+.mainboard {
+	padding-top: 85px;
+}
+
+.settings-card {
+	background-color: white;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.dashboard-card {
+	background-color: white;
+	width: calc(25% - 20px);
+	width: -webkit-calc(25% - 20px);
+	width: -moz-calc(25% - 20px);
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	height: 200px;
+	padding-top: 10px;
+}
+
+.token-life {
+	padding-top: 10px;
+	display: none;
+}
