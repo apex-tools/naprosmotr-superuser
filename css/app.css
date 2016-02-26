@@ -1,11 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,cyrillic-ext,cyrillic);
 body {
 	background-color: #F54359;
-/*
-	background-image: url(../img/planet-bg.jpg);
+	background-image: url(../img/bg.jpg);
 	background-position: center;
+	background-attachment: fixed;
 	background-size: cover;
-*/
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -31,8 +30,7 @@ h4, h5 {
 }
 
 .toprow {
-	height: 65px;
-	padding-top: 5px;
+	height: 35px;
 	position: fixed;
 	width: calc(100% - 150px);
 	background-color: rgba(255, 255, 255, 0.96);
@@ -49,7 +47,7 @@ h4, h5 {
 }
 
 .mainboard {
-	padding-top: 85px;
+	padding-top: 25px;
 }
 
 .settings-card {
@@ -76,4 +74,20 @@ h4, h5 {
 .token-life {
 	padding-top: 10px;
 	display: none;
+}
+
+.sort-padding {
+	padding-left: 10px;
+}
+
+.obj-image-thumb {
+	width: 100px;
+}
+
+.status-select {
+	max-width: 160px;
+}
+
+.obj-list-header {
+
 }
