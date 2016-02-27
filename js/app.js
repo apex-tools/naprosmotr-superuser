@@ -1,6 +1,9 @@
 angular.module('naprosmotrSUApp', [])
 
     .controller('mainController', function($scope) {
+
+        $scope.objectLayout = 'ObjectList';
+
         $scope.sortType = 'name'; // значение сортировки по умолчанию
         $scope.sortReverse = false;  // обратная сортировка
         $scope.searchObj = '';     // значение поиска по умолчанию
