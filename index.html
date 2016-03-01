@@ -27,17 +27,18 @@
 </head>
 
 <body ng-controller="mainController">
+
 	<div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm">
 		<h4>NaProsmotr</h4>
 		<ul class="nav navmenu-nav">
 			<li><a href="#" ng-click="objectLayout = 'ObjectList'" class="navmenu-link">Объекты</a></li>
 			<li><a href="#" ng-click="objectLayout = 'AddObject'" class="navmenu-link">Добавить объект</a></li>
 			<li><a href="#" ng-click="objectLayout = 'ObjModarate'" class="navmenu-link">Модерация объектов</a></li>
-			<li><a href="#" class="navmenu-link">Новости</a></li>
-			<li><a href="#" class="navmenu-link">Добавить новость</a></li>
-			<li><a href="#" class="navmenu-link">Пользователи</a></li>
-			<li><a href="#" class="navmenu-link">Персональные настройки</a></li>
-			<li><a href="#" class="navmenu-link">Настройки сайта</a></li>
+			<li><a href="#" ng-click="objectLayout = 'NewsList'" class="navmenu-link">Новости</a></li>
+			<li><a href="#" ng-click="objectLayout = 'AddNews'" class="navmenu-link">Добавить новость</a></li>
+			<li><a href="#" ng-click="objectLayout = 'Users'" class="navmenu-link">Пользователи</a></li>
+			<li><a href="#" ng-click="objectLayout = 'PersonalSettings'" class="navmenu-link">Персональные настройки</a></li>
+			<li><a href="#" ng-click="objectLayout = 'SiteSettings'" class="navmenu-link">Настройки сайта</a></li>
 		</ul>
 	</div>
 	<div class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
@@ -53,6 +54,11 @@
 		<ng-include ng-show="objectLayout == 'ObjectList'" src="'modules/object-list.html'"></ng-include>
 		<ng-include ng-show="objectLayout == 'AddObject'" src="'modules/add-object.html'"></ng-include>
 		<ng-include ng-show="objectLayout == 'ObjModarate'" src="'modules/obj-modarate.html'"></ng-include>
+		<ng-include ng-show="objectLayout == 'NewsList'" src="'modules/news-list.html'"></ng-include>
+		<ng-include ng-show="objectLayout == 'AddNews'" src="'modules/add-news.html'"></ng-include>
+		<ng-include ng-show="objectLayout == 'Users'" src="'modules/obj-users.html'"></ng-include>
+		<ng-include ng-show="objectLayout == 'PersonalSettings'" src="'modules/personal-settings.html'"></ng-include>
+		<ng-include ng-show="objectLayout == 'SiteSettings'" src="'modules/site-settings.html'"></ng-include>
 	</div>
 	<!-- /.container -->
 
