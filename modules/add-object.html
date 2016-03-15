@@ -11,14 +11,63 @@
         </div>
         <hr>
         <form>
-            <div class="form-group">
+            <div class="form-group col-md-12">
                 <label for="inputObjName">Название объекта</label>
                 <input type="text" class="form-control" id="inputObjName" placeholder="Название объекта">
             </div>
-            <div class="form-group">
-                <label for="inputObjAdress">Адрес</label>
-                <input type="text" class="form-control" id="inputObjAdress" placeholder="Адрес">
+            <div class="col-md-12">
+                <select class="form-control">
+                    <option>Застройщик</option>
+                    <option>ЦДС</option>
+                    <option>Setl-City</option>
+                    <option>ЛенСтройТрест</option>
+                    <option>ЛенСпецСму</option>
+                </select>
             </div>
+            <hr>
+            <div class="form-group col-md-12">
+                <label for="inputObjCountry">Страна</label>
+                <input type="text" class="form-control" id="inputObjCountry" placeholder="Страна">
+            </div>
+            <div class="form-group col-md-12">
+                <label for="inputObjCity">Город</label>
+                <input type="text" class="form-control" id="inputObjCity" placeholder="Адрес">
+            </div>
+            <div class="col-md-12">
+                <label>Адрес</label>
+            </div>
+            <div class="col-md-4">
+                <select class="form-control">
+                    <option>Улица</option>
+                    <option>Проспект</option>
+                    <option>Проезд</option>
+                    <option>Площадь</option>
+                    <option>Бульвар</option>
+                </select>
+            </div>
+            <div class="form-group col-md-8">
+                <input type="text" class="form-control" id="inputObjStreet" placeholder="Название улицы">
+            </div>
+            <div class="row">
+                <div class="col-md-1"><label>Дом</label></div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="inputObjHomeN" placeholder="Дом">
+                </div>
+                <div class="col-md-1"><label>Корп.</label></div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="inputObjBuilding" placeholder="Корп.">
+                </div>
+                <div class="col-md-2">
+                    <select class="form-control">
+                        <option>Стр.</option>
+                        <option>Лит.</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="inputObjLit" placeholder="">
+                </div>
+            </div>
+            <hr>
             <div class="form-group">
                 <label for="inputObjImg">Фото объекта</label>
                 <input type="file" id="inputObjImg">
